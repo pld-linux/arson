@@ -41,7 +41,7 @@ kde_htmldir="%{_htmldir}"; export kde_htmldir
 kde_icondir="%{_pixmapsdir}"; export kde_icondir
 
 %configure \
-	    --enable-final
+	--enable-final
 
 %{__make}
 
@@ -49,8 +49,8 @@ kde_icondir="%{_pixmapsdir}"; export kde_icondir
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	    DESTDIR=$RPM_BUILD_ROOT \
-	    kdelnkdir=%{_applnkdir}/Utilities/CD-RW
+	DESTDIR=$RPM_BUILD_ROOT \
+	kdelnkdir=%{_applnkdir}/Utilities/CD-RW
 
 %find_lang	%{name}		--with-kde
 
