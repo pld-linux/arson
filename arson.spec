@@ -12,8 +12,8 @@ Version:	0.9.7
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/%{name}/%{name}-%{version}-%{_kdever}.tar.bz2
-URL:		http://%{name}.sourceforge.net/
+Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-%{_kdever}.tar.bz2
+URL:		http://arson.sourceforge.net/
 BuildRequires:	kdelibs-devel >= 3.0
 Requires:	kdelibs >= 3.0
 Requires:	cdrdao
@@ -58,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc AUTHORS C* DESCRIPTION FEATURES HELPME NEWS R* T* VERSION
+%doc AUTHORS ChangeLog DESCRIPTION FEATURES HELPME NEWS README REQUIREMENTS THANKS TODO
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/apps/*
 %{_datadir}/config/*
