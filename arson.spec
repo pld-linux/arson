@@ -13,7 +13,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-%{_kdever}.tar.bz2
-# Source0-md5: baf05d52128dd75d72298b4011e2e353
+# Source0-md5:	baf05d52128dd75d72298b4011e2e353
 URL:		http://arson.sourceforge.net/
 BuildRequires:	kdelibs-devel >= 3.0
 Requires:	kdelibs >= 3.0
