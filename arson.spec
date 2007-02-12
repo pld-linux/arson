@@ -6,7 +6,7 @@
 %define		_kdever		kde3
 
 Summary:	Tool for CD recording
-Summary(pl.UTF-8):   Narzędzie do nagrywania płyt CD
+Summary(pl.UTF-8):	Narzędzie do nagrywania płyt CD
 Name:		arson
 Version:	0.9.7
 Release:	1
