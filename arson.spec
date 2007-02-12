@@ -6,7 +6,7 @@
 %define		_kdever		kde3
 
 Summary:	Tool for CD recording
-Summary(pl):	Narzêdzie do nagrywania p³yt CD
+Summary(pl.UTF-8):   NarzÄ™dzie do nagrywania pÅ‚yt CD
 Name:		arson
 Version:	0.9.7
 Release:	1
@@ -30,8 +30,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Tool for CD recording.
 
-%description -l pl
-Narzêdzie do nagrywania p³yt CD.
+%description -l pl.UTF-8
+NarzÄ™dzie do nagrywania pÅ‚yt CD.
 
 %prep
 %setup -q -n %{name}-%{version}-%{_kdever}
