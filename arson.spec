@@ -61,7 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog DESCRIPTION FEATURES HELPME NEWS README REQUIREMENTS THANKS TODO
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/apps/*
+%{_datadir}/apps/* # specify excplicit dirs here (to avoid packaging kde dirs)
 %{_datadir}/config/*
 %{_datadir}/mimelnk/application/*
 %{_applnkdir}/Utilities/CD-RW/*
