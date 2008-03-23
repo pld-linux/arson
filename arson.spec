@@ -41,7 +41,6 @@ kde_htmldir="%{_htmldir}"; export kde_htmldir
 kde_icondir="%{_pixmapsdir}"; export kde_icondir
 
 %configure \
-	--enable-final
 
 %{__make}
 
